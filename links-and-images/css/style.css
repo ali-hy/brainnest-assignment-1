@@ -1,0 +1,52 @@
+*{
+  box-sizing: border-box;
+}
+
+body{
+  margin: 0;
+  color: white;
+  background-color: hsl(233, 17%, 9%);
+  font-family: Roboto, 'Segoe UI', Arial, Helvetica, sans-serif;
+}
+
+h1{
+  margin: 0;
+  padding: 20pt;
+  color: white;
+  background-color: black;
+}
+
+p{
+  width: 50%;
+  text-align: justify;
+  margin-bottom: 30px;
+}
+
+a{
+  display: inline-block;
+  padding: 7px 12px;
+  font-size: 14pt;
+
+  text-decoration: none;
+  border-radius: 20px;
+  border: 3px solid white;
+  
+  color: black;
+  background-color: white;
+  transition-duration: 0.5s;
+}
+a:hover{
+  color: white;
+  background-color: transparent;
+}
+
+img{
+  border-radius: 10%;
+}
+
+.links-container{
+  margin-bottom: 20px;
+}
+main{
+  padding: 20px;
+}
